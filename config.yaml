@@ -14,8 +14,8 @@ ocp:
   - v4.16
   - v4.17
 replacements:
-  - from: registry.redhat.io/openshift-gitops/openshift-gitops-operator-bundle
-  - to: registry.redhat.io/openshift-gitops/openshift-gitops-operator-bundle
+  - from: registry.redhat.io/openshift-gitops-1/gitops-operator-bundle
+  - to: registry.redhat.io/openshift-gitops-1/gitops-operator-bundle
 bundles:
   - sha256:c605145a2b2454c969e43b5d8390d29c932bb0eeb4ba2eb9f0c72d8c909ae8cb
   - sha256:1fa8301afa977b08c548719f3f8a58a9efc0f3987b7722334ccbd9514727d88b
