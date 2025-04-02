@@ -1,6 +1,6 @@
 ---
 name: openshift-gitops-operator
-repository: openshift-gitops/openshift-gitops-operator-bundle
+repository: openshift-gitops-1/gitops-operator-bundle
 konflux:
   namespace: openshift-gitops
   prefix: openshift-gitops-fbc
@@ -15,13 +15,12 @@ ocp:
   - v4.17
 replacements:
   - from: registry.redhat.io/openshift-gitops-1/gitops-operator-bundle
-  - to: registry.redhat.io/openshift-gitops-1/gitops-operator-bundle
+    to: registry.redhat.io/openshift-gitops-1/gitops-operator-bundle
 bundles:
-  - sha256:c605145a2b2454c969e43b5d8390d29c932bb0eeb4ba2eb9f0c72d8c909ae8cb
-  - sha256:1fa8301afa977b08c548719f3f8a58a9efc0f3987b7722334ccbd9514727d88b
-  - sha256:decb4bc09753912d3d582093ce84548f507f6f7cc75f3f744a63130c0c323b46
-  - sha256:80198f65f7e3f9022a34e0342e9423807b855dcb7bda810172eebc9a27afb5c2
-  - sha256:53daa863b16b421cc1d9bc7e042cf1ecce9de9913b978561145b319c2a1a8ae5
-  - sha256:0e41fde95f2b68ce8c359e4370accb1f5526382ce415a6b9eba8cdf18e188c94
-  - sha256:7977eecb1dc05d639e94c84715ea2a5ced158508524ed0c8487dd3da3fa51fde
   - sha256:610437902999bf406e6284a1f587e055e4ccc36cc4f83f3cf5aec2981843698b
+  - sha256:53daa863b16b421cc1d9bc7e042cf1ecce9de9913b978561145b319c2a1a8ae5
+  - sha256:d23d78b4cf03a3349733c249fc5b835f105227a19044ab1e99bbba8d30522595
+  - sha256:ba442571ef9180765055f5224548c73e3da2be31731f8dd5b6b1beaf3e6732ee
+  - sha256:17dc1380c8974b404745300420f3d64d3797db1b335351a38f4b2e8492da624c
+  - sha256:8a0cde220937294ed559ee9dcbcdc840956270fdc66e917a0fe5f5971cf18f4e
+  - sha256:5102b7d404ab4cd1bfc2a19024c10e1a295ba610cbb16aa0c75f1bfe5c66bfd2
