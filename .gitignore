@@ -34,5 +34,6 @@ _output
 temp
 tmp
 workdir
+opm-registry-*
 
 verified_coordinates
