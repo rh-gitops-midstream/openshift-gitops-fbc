@@ -15756,7 +15756,7 @@ relatedImages:
   name: argocd_redis_image
 schema: olm.bundle
 ---
-image: quay.io/redhat-user-workloads/rh-openshift-gitops-tenant/gitops-operator-bundle@sha256:8df04d93a71baf754db7ebc4c854a12c958767d4d2c633a6398cbf5363b98538
+image: quay.io/redhat-user-workloads/rh-openshift-gitops-tenant/gitops-operator-bundle@sha256:25ecdabaae94d256416a89a048de4d9cf25c0e1e38bd22282c2c50d2357c8b7c
 name: openshift-gitops-operator.v1.16.1
 package: openshift-gitops-operator
 properties:
@@ -16198,15 +16198,13 @@ properties:
       operatorframework.io/arch.s390x: supported
       operatorframework.io/os.linux: supported
     maintainers:
-    - email: shbose@redhat.com
-      name: shoubhik
-    maturity: alpha
+    - email: team-gitops@redhat.com
+      name: OpenShift GitOps Team
+    maturity: GA
     provider:
       name: Red Hat Inc
 relatedImages:
-- image: ""
-  name: ""
-- image: quay.io/redhat-user-workloads/rh-openshift-gitops-tenant/gitops-operator-bundle@sha256:8df04d93a71baf754db7ebc4c854a12c958767d4d2c633a6398cbf5363b98538
+- image: quay.io/redhat-user-workloads/rh-openshift-gitops-tenant/gitops-operator-bundle@sha256:25ecdabaae94d256416a89a048de4d9cf25c0e1e38bd22282c2c50d2357c8b7c
   name: ""
 - image: registry.redhat.io/openshift-gitops-1/argo-rollouts-rhel8@sha256:7864909b57433f9a16a358c145434f45cde2b536b197fab4ed997e0811ebb56f
   name: argo_rollouts_image
@@ -16227,9 +16225,9 @@ relatedImages:
 - image: registry.redhat.io/openshift4/ose-haproxy-router@sha256:72817b62a55fb0f82f2908effc7bd3d20409fc60e9f228449d8f78eb390e22ac
   name: argocd_redis_ha_proxy_image
 - image: registry.redhat.io/openshift4/ose-kube-rbac-proxy@sha256:baa41441752d6d739065eda587b92402e209c67fbcdacf0a40559d37c9e978eb
-  name: kube-rbac-proxy
-- image: registry.redhat.io/openshift4/ose-kube-rbac-proxy@sha256:baa41441752d6d739065eda587b92402e209c67fbcdacf0a40559d37c9e978eb
   name: kube_rbac_proxy_image
+- image: registry.redhat.io/openshift4/ose-kube-rbac-proxy@sha256:baa41441752d6d739065eda587b92402e209c67fbcdacf0a40559d37c9e978eb
+  name: kube-rbac-proxy
 - image: registry.redhat.io/rh-sso-7/sso76-openshift-rhel8@sha256:cf52b301f1c37c1de925bcf7e16005b0a3a1865645db29fd671d47db592da1e7
   name: argocd_keycloak_image
 - image: registry.redhat.io/rhel9/redis-7@sha256:af174f3bc30f88c42b86add90d910cab79b1066d939b7faa99d85f5e8778e6d0
